@@ -471,6 +471,7 @@
 				43B0260B195DE081007493F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43B0260C195DE081007493F5 /* Build configuration list for PBXNativeTarget "GamblingTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				43B0260E195DE081007493F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

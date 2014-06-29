@@ -37,12 +37,12 @@
 }
 
 - (void)updateYouHave {
-    [mLabelYouHave setText:[NSString stringWithFormat:@"$%ld", mYouHave]];
+    [mLabelYouHave setText:[NSString stringWithFormat:@"$%ld", (long)mYouHave]];
 }
 
 - (void)updateYouBet {
     self.mYouBet = fabs(mSlider.value * mYouHave);
-    [mLabelYouBet setText:[NSString stringWithFormat:@"$%ld", mYouBet]];
+    [mLabelYouBet setText:[NSString stringWithFormat:@"$%ld", (long)mYouBet]];
 }
 
 
